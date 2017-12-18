@@ -1,3 +1,11 @@
+/*
+ * Authors
+ * Yoseph Buitrago    2016292
+ * Jin Lim            2015158
+ *
+ *
+ */
+
 import java.util.Date;
 public class Person {
     static int counter=0;
