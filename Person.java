@@ -6,9 +6,12 @@
  *
  */
 
+
+// person object contains variable - status.
+
 import java.util.Date;
 public class Person {
-    static int counter=0;
+    static int counter=0; // set counter 0 for initialise. 
     int id ;
     String name;
     String lname;
@@ -27,8 +30,6 @@ public class Person {
         this.id=counter;
         counter++;
     }
-
-
 
 
 }

@@ -7,6 +7,7 @@
  */
 public class LinkedList {
 
+		// for linked list
     Person head;
     Person tail;
     int countPersonInqueue=0;
@@ -44,6 +45,7 @@ public class LinkedList {
 
     }
 
+    
     public void insertPersonAtPositionX(int position,String name,String lname,int passport){
         position--;
         countPersonInqueue++;
@@ -118,7 +120,7 @@ public class LinkedList {
             return;
 
         }
-        System.out.println("Sorry you are not in the list");
+        System.out.println("Sorry you are not in the list"); // error warning..
     }
 
     // delete a person from the front od the queue
@@ -176,7 +178,7 @@ public class LinkedList {
 
     }
 
-    // Delete N number of persons from the end of the queue
+    // Delete N number of persons from the end of the queue -This is cut off options..
     public void deletePersonsAtEnd(int NoToDelete){
         Person currentPerson=this.tail;
         if (NoToDelete>=countPersonInqueue){

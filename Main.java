@@ -14,15 +14,16 @@ public class Main {
     public static void main(String[] args) throws InterruptedException {
 
 
+    	
         // variable to hold temporary information that user insert
-        int menuOption;
-        Person newPerson;
+        int menuOption; // to get user's input
+        Person newPerson; // Person object.
         int position;
         int nPersons;
         LinkedList newList = new LinkedList();
         Scanner sc = new Scanner(System.in);
 
-        // print the menu
+        // print the menu option.
         while (true){
 
 
@@ -130,7 +131,7 @@ public class Main {
         return new Person(name,lname,passportNo);
     }
 
-    // validate that the user insert string
+    // validate that the user insert string 
     private static String getString(Scanner sc) {
         String str=null;
         do{
